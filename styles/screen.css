@@ -19,8 +19,13 @@ header {
     font-weight: normal;
 }
 
+header h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
 main {
-    
+    background: url('/images/polaroid.png') no-repeat center 100px;
     margin: 0 auto;
     width: 1000px;
 }
