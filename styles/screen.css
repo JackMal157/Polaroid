@@ -20,5 +20,7 @@ header {
 }
 
 main {
-    background: url()
+    
+    margin: 0 auto;
+    width: 1000px;
 }
