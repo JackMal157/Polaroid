@@ -4,6 +4,7 @@
     --main-bg-color: #e9e9e9;
     --primary-text-color: #424242;
     --accent-color: #ff3f3c;
+    --h3-heading-size: 3em;
 }
 
 body {
@@ -21,7 +22,10 @@ header {
 
 header h1 {
     margin: 0;
-    font-weight: normal;
+    font-weight: 505;
+    font-size: 1.5em;
+    padding-left: 25px;
+    margin-bottom: 50px;;
 }
 
 main {
@@ -47,4 +51,58 @@ main {
     list-style-type: none;
     margin: 10px 0;
     padding: 0 0 0 40px;
+    text-align: center;
 }
+
+.details h3 {
+    font-size: var(--h3-heading-size);
+    margin-bottom: 20px;
+}
+
+.details p {
+    margin: 0 auto 20px auto;
+    padding: 0;
+    max-width: 600px;
+}
+
+.details ul {
+    margin: 0 auto 20px auto;
+    padding: 0;
+    max-width: 400px;
+    text-align: left;
+}
+
+.action {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.action h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.action form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.action input[type="text"] {
+    padding: 12px 20px;
+    font-size: .90em;
+    width: 300px;
+    text-align: center;
+}
+
+.action input[type="button"] {
+    padding: 10px 10px;
+    background-color: var(--accent-color);
+    color: var(--main-bg-color);
+    border-color: var(--accent-color);
+    font-family: "Inter", sans-serif;
+}
+
+
+
